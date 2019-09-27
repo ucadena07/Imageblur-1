@@ -18,8 +18,8 @@ end
 class Deck
   def initialize
       @cards = []
-      @cards << Card.new(:spades, :clubs, :diamonds, :hearts)
-    
+      @cards << Card.new(10, :spades)
+      @cards << Card.new(9, :diamonds)
   end 
 
   def shuffle

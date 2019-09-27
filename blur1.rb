@@ -1,4 +1,4 @@
-# Create Image class
+
 class Image 
   def initialize(picture)
     @picture = picture
